@@ -491,9 +491,9 @@ main{
     transition: all 0.35s linear;
 }
 .theback i{
-    font-size: 5.5rem;
-    margin-inline: auto ;
-    color: transparent;
+    font-size: 5rem;
+    margin-inline: auto;
+    color: red;
     filter: drop-shadow(0px 0px 15px red);
 }
 .theback .title{
@@ -505,7 +505,7 @@ main{
 }
 .theback p{
     font-size: 19px;
-    font-weight: 40;
+    font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1342,7 +1342,7 @@ margin-top: 7rem;
 }
 .ab-card:hover .about_img{
     top: 88%;
-    left: 90%;
+    left: 88%;
     height: 200px;
     opacity: 1; 
 }
@@ -1357,9 +1357,22 @@ margin-top: 7rem;
     }
     .thecard {
         height: 330px;
-        width: 345px;
+        width: 340px;
+        margin-left: 5px;
         
     }
+    .theback i{
+        font-size: 3rem;
+    }
+    .theback .title{
+        font-size: 2rem;
+        line-height: 1.500rem;
+        margin-block: 1rem 1rem;
+    }
+    .theback p{
+        font-size: 17px;
+    }
+
 /* ------------service ends------------------ */
 
     .container1 {
