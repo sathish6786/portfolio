@@ -1305,7 +1305,7 @@ margin-top: 7rem;
         }
         100% {
             opacity: 0.9;
-            transform: translateY(-70px);
+            transform: translateY(-50px);
         }  
     }
     .h-card-body h1{
@@ -1319,7 +1319,7 @@ margin-top: 7rem;
             opacity: 0;
         }
         100% {
-            transform: translateY(-10px);
+            transform: translateY(-20px);
             opacity: 1;
         }
     }
@@ -1333,7 +1333,7 @@ margin-top: 7rem;
         line-height: 170%;
         font-size: 17px;
         text-align: justify;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .social-icons i{
         width: 2.5rem;
